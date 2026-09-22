@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/ venv/
+
+# Cached API data — never committed (quota-sensitive, user-specific)
+data/cache/
+data/raw/
+*.parquet
+*.feather
+
+# Outputs regenerated on demand (except report.html committed as demo artifact)
+report/*.log
+
+# Secrets / keys
+.env
+*.env
+*secret*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
